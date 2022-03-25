@@ -19,6 +19,15 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
     </properties>
+    <dependencies>
+        <dependency>
+               <groupId>com.sun</groupId>
+               <artifactId>tools</artifactId>
+               <version>1.6.0</version>
+               <scope>system</scope>
+               <systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>
+        </dependency>
+    </dependencies>
 
     <scm>
             <connection>scm:https://github.com/puneetbhatia77/addressbook.git</connection>
